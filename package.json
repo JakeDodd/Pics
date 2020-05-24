@@ -2,7 +2,7 @@
   "name": "pics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JakeDodd.github.io/Pics",
+  "homepage": "https://JakeDodd.github.io/Pics",
   "dependencies": {
     "axios": "^0.19.2",
     "react": "^16.13.1",
