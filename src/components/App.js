@@ -9,13 +9,14 @@ const App = () => (
     <ImageSearch />
     <SteamButton
       onClick={async () => {
-        // window.location='https://steamcommunity.com/openid/'
+        // window.location='https://localhost:3002/auth/steam'
 
         try {
-          const response = await fetch("/api");
-          const bodyText = await response.text();
-          console.log(bodyText);
-          alert("Response: " + bodyText);
+          // const response = await fetch("/api");
+          // const bodyText = await response.text();
+          // console.log(bodyText);
+          // alert("Response: " + bodyText);
+          window.location = "http://localhost:3002/auth/steam";
         } catch (err) {
           console.error("this failed", err);
         }
